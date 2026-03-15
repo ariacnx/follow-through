@@ -1,4 +1,4 @@
-# 🎉 Afterparty
+# 🎉 Follow-Through
 
 **Turn event connections into lasting relationships — automatically.**
 
@@ -110,40 +110,41 @@ post-event-networking/
 ## Example
 
 ```
-You: I went to Love at Scale hackathon on Friday
+You: I went to a hackathon on Friday
 
 Agent: Found 18 new LinkedIn connections. Here's the list:
-       1. Monica Abrams — AI Snack Club
-       2. Erwan Le Roy — Ex-Amazon Principal
+       1. Sarah — Community Builder @ AI Collective
+       2. James — Ex-Amazon Principal Engineer
+       3. Wei — Stanford ML Researcher
        ...
 
        How do you want to categorize them?
        ☕ Coffee | 🤝 Collab (give me context) | 👋 Stay in touch
 
-You: Monica — collab, we talked about AI communities and hosting
-     workshops for women in tech. Erwan — coffee. Rest stay in touch.
+You: Sarah — collab, we talked about AI communities and hosting
+     workshops for women in tech. James — coffee. Rest stay in touch.
 
 Agent: Here are your drafts:
 
-       Monica: "Hi Monica! It was so great meeting you at Love at Scale.
-       I love what you're building with AI Snack Club 🧃 I'm going to
-       Australia soon and would love to host workshops for women in tech
-       there. Let me know if there's any way we could collab on this..."
+       Sarah: "Hi Sarah! It was so great meeting you at the hackathon.
+       I love what you're building with AI Collective 🧃 I'd love to
+       explore hosting workshops together for women in tech. Let me
+       know if you'd be down to chat more about this!"
 
-       Erwan: "Hi Erwan! Really enjoyed talking at Love at Scale...
+       James: "Hi James! Really enjoyed talking at the hackathon...
        If you're ever around Mountain View, let me know — I'd love to
        grab a coffee ☕"
 
-       [13 stay-in-touch messages]
+       [15 stay-in-touch messages]
 
        Which ones should I send for you?
 
-You: Send the stay-in-touch ones, I'll do Monica and Erwan myself
+You: Send the stay-in-touch ones, I'll do Sarah and James myself
 
-Agent: ✅ Sent to Kevon Baha
-       ✅ Sent to Wen-Han Hsieh
+Agent: ✅ Sent to Alex
+       ✅ Sent to Priya
        ...
-       📝 Monica and Erwan drafts ready for you to copy
+       📝 Sarah and James drafts ready for you to copy
 ```
 
 ## Design Decisions
