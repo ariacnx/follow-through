@@ -72,23 +72,27 @@ Most AI tools draft generic messages. This skill studies the *difference* betwee
 ### Multilingual
 Auto-detects Chinese contacts and writes in Chinese. Supports bilingual Xiaohongshu posts.
 
+## Platform Support
+
+Built for **OpenClaw** and **Claude Code** — where you get the full experience:
+- 🔍 LinkedIn scanning via browser automation
+- 📨 Send messages directly from LinkedIn
+- 🧠 Voice learning that persists across sessions
+- ⏰ Automated follow-up reminders (cron)
+- 🔄 Feedback loop that improves drafts over time
+
+The skill is plain markdown, so you can adapt it for other agent frameworks — the core workflow (categorize → draft → review → send) works anywhere. Browser automation and persistent memory will need your own setup.
+
 ## Installation
+
+### OpenClaw
+Place the skill folder in your `skills/` directory.
 
 ### Claude Code
 ```bash
 /plugin install follow-through
 ```
 Or clone and point to the skill folder.
-
-### Claude.ai
-1. Download this repo as a zip
-2. Upload via Settings → Capabilities → Skills
-
-### OpenClaw
-Place the skill folder in your `skills/` directory.
-
-### Any Other Agent (ChatGPT, Cursor, etc.)
-Copy the contents of `SKILL.md` into your agent's system prompt or instructions. The skill is plain markdown — no framework lock-in.
 
 ## File Structure
 
@@ -162,7 +166,7 @@ MIT
 ## Author
 Built by [Aria Chen](https://linkedin.com/in/ariac) after attending a hackathon and realizing follow-up is the hardest part of networking 💌
 
-Compatible with [Claude Agent Skills](https://agentskills.io), [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenClaw](https://openclaw.ai), and any agent framework that supports the Agent Skills standard.
+Built on the [Agent Skills](https://agentskills.io) standard. Full experience on [OpenClaw](https://openclaw.ai) and [Claude Code](https://docs.anthropic.com/en/docs/claude-code). Adaptable to other frameworks.
 
 ---
 
