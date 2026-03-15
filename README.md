@@ -60,19 +60,6 @@ Agent: Sending...
 
 ---
 
-## Before & After
-
-| Without Follow-Through | With Follow-Through |
-|----------------------|---------------------|
-| Meet 18 people at event | Meet 18 people at event |
-| Connect on LinkedIn | Connect on LinkedIn |
-| "I'll message them tomorrow" | Agent scans + drafts in 30 seconds |
-| Tomorrow never comes | You review, pick send method, done |
-| 3 months later: "who was that?" | 1-month reminder: "Check in with Sarah about workshops" |
-| Generic "Great meeting you!" if anything | Messages in YOUR voice, in their language |
-
----
-
 ## The Problem
 
 Every builder has experienced this:
