@@ -6,6 +6,92 @@ You go to a hackathon, conference, or mixer. You meet 15+ people. You connect on
 
 This skill fixes that.
 
+---
+
+## 🎬 Demo: From Hackathon to Follow-Up in 2 Minutes
+
+> **Friday night:** You just left a hackathon. You met 18 people. You're tired. You connected on LinkedIn in the Uber home.
+>
+> **Saturday morning:** You tell your agent "I went to a hackathon yesterday."
+
+**What happens next:**
+
+```
+You: I went to a hackathon yesterday
+
+Agent: 🔍 Scanning your LinkedIn...
+       Found 18 new connections from March 14-15. Here's everyone:
+
+       1.  Sarah Kim — Community Builder @ AI Collective
+       2.  James Liu — Ex-Amazon Principal Engineer
+       3.  Wei Zhang — Stanford ML Researcher
+       4.  Priya Sharma — Founder @ DataFlow
+       5.  Alex Costa — Product Designer @ Figma
+       6.  Yuki Tanaka — AI Engineer @ Notion
+       ...and 12 more
+
+       How do you want to follow up?
+       ☕ Coffee  |  🤝 Collab (tell me what you talked about)  |  👋 Stay in touch
+```
+```
+You: Sarah — collab, we talked about hosting AI workshops for women in tech.
+     James — coffee.
+     Wei — collab, he's working on the same multimodal problem I am.
+     Rest stay in touch.
+```
+```
+Agent: Here are your drafts:
+
+  🤝 Sarah: "Hey Sarah! So great meeting you at the hackathon — I loved
+  hearing about what you're building with AI Collective. I've been
+  thinking about hosting workshops for women in tech and would love to
+  explore doing something together. Let me know if you'd be down to
+  chat more about this! 😊"
+
+  ☕ James: "Hey James! Really enjoyed our conversation at the hackathon.
+  If you're ever around Mountain View, let me know — would love to grab
+  a coffee ☕"
+
+  🤝 Wei: "嗨 Wei！昨天在hackathon聊得很开心！你做的multimodal项目太酷了，
+  我最近也在研究类似的方向。我们可以找时间深聊一下，互相交流一些想法！"
+
+  👋 Priya: "Hey Priya! Great meeting you at the hackathon. Let's stay
+  in touch — I'll share any fun events I come across! 😊"
+
+  ...and 14 more drafts ready
+
+  Which ones should I send for you, and which do you want to send yourself?
+```
+```
+You: Send the stay-in-touch ones for me. I'll send Sarah, James, and Wei myself.
+
+Agent: Sending...
+       ✅ Priya — sent
+       ✅ Alex — sent
+       ✅ Yuki — sent
+       ✅ ... (12 more sent)
+
+       📝 Sarah, James, and Wei drafts ready for you to copy.
+       ⏰ Follow-up reminder set for April 15 for Sarah, James, and Wei.
+```
+
+> **Total time: ~2 minutes.** 18 personalized messages. Zero copy-paste from a template. Chinese messages for Chinese contacts. And in a month, you'll get a reminder to check back in.
+
+---
+
+## Before & After
+
+| Without Follow-Through | With Follow-Through |
+|----------------------|---------------------|
+| Meet 18 people at event | Meet 18 people at event |
+| Connect on LinkedIn | Connect on LinkedIn |
+| "I'll message them tomorrow" | Agent scans + drafts in 30 seconds |
+| Tomorrow never comes | You review, pick send method, done |
+| 3 months later: "who was that?" | 1-month reminder: "Check in with Sarah about workshops" |
+| Generic "Great meeting you!" if anything | Messages in YOUR voice, in their language |
+
+---
+
 ## The Problem
 
 Every builder has experienced this:
@@ -103,46 +189,6 @@ post-event-networking/
 └── references/
     ├── message-templates.md          # Starting templates
     └── voice-notes.md                # Learned voice profile (evolves)
-```
-
-## Example
-
-```
-You: I went to a hackathon on Friday
-
-Agent: Found 18 new LinkedIn connections. Here's the list:
-       1. Sarah — Community Builder @ AI Collective
-       2. James — Ex-Amazon Principal Engineer
-       3. Wei — Stanford ML Researcher
-       ...
-
-       How do you want to categorize them?
-       ☕ Coffee | 🤝 Collab (give me context) | 👋 Stay in touch
-
-You: Sarah — collab, we talked about AI communities and hosting
-     workshops for women in tech. James — coffee. Rest stay in touch.
-
-Agent: Here are your drafts:
-
-       Sarah: "Hi Sarah! It was so great meeting you at the hackathon.
-       I love what you're building with AI Collective 🧃 I'd love to
-       explore hosting workshops together for women in tech. Let me
-       know if you'd be down to chat more about this!"
-
-       James: "Hi James! Really enjoyed talking at the hackathon...
-       If you're ever around Mountain View, let me know — I'd love to
-       grab a coffee ☕"
-
-       [15 stay-in-touch messages]
-
-       Which ones should I send for you?
-
-You: Send the stay-in-touch ones, I'll do Sarah and James myself
-
-Agent: ✅ Sent to Alex
-       ✅ Sent to Priya
-       ...
-       📝 Sarah and James drafts ready for you to copy
 ```
 
 ## Design Decisions
